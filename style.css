@@ -1,0 +1,133 @@
+label{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.items{
+	
+	font-size: 0.7em;
+	width: 150px;
+	height: 100px;
+
+	word-wrap: none;
+}
+
+.itm{
+	border: 1px solid transparent;
+	border-radius: 5px;
+	border: 2px solid gray;
+	background-color: transparent;
+
+}
+
+
+.itm-cont{
+	display: flex;
+	width: 400px;
+
+	padding: 5px 0px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex-grow: 1;
+
+	
+}
+
+.wide{
+	width: 100%;
+	background-color: white;
+	box-shadow: 2px 2px 2px 0px  gray;
+}
+
+
+.itm-cont input{
+	width: 100px;
+}
+
+
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Calibri;
+	font-weight: bold;
+	display: flex;
+	
+}
+
+
+.first-part{
+	background: url("./images/soyouz.jpg");
+	width: 400px;
+	height: 631.25px;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.first-part p{
+	flex-grow: 1;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.313);
+	font-size: 2.9em;
+	font-family: Calibri;
+	float: left;
+}
+
+
+.second-part{
+	width: 580px;
+	background-color: rgb(244, 244, 244);
+	padding: 10px;
+	float: right;
+
+}
+
+
+.submit{
+	border: 1px solid transparent;
+	border-radius: 6px;
+	background-color: rgb(41, 96, 41);
+	color: white;
+	padding: 5px 10px;
+}
+
+.submit:active{
+	box-shadow: 2px 2px 2px  gray;
+}
+
+
+.submit:valid{
+	border: 1px solid transparent;
+	font-family: Calibri;
+}
+
+
+a{
+	color: rgb(41, 96, 41);
+	text-decoration: none;
+
+}
+
+a:hover{
+	text-decoration: underline;
+	text-decoration-color:rgb(41, 96, 41);
+
+}
+
+.title{
+	text-align: center;
+}
+
+.match{
+	color: red;
+}
